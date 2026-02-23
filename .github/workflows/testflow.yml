@@ -3,7 +3,7 @@ name: Github Action 테스트해보기
 on:
   push:
     branches:
-      - master  # 하이픈(-) 앞에는 공백 6칸, 뒤에는 공백 1칸입니다.
+      - master  # 하이픈(-) 앞에는 공백 6칸, 뒤에는 공백 1칸입니다.ㅇㅇㅇ
 
 jobs:
   My-GithubTest:
