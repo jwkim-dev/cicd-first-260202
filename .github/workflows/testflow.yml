@@ -3,13 +3,11 @@ name: Github Action 테스트해보기
 on:
   push:
     branches:
-      - main
-
+      - main  # 하이픈(-) 앞에는 공백 6칸, 뒤에는 공백 1칸입니다.
 
 jobs:
   My-GithubTest:
     runs-on: ubuntu-latest
-
     steps:
       - name: firstStep
         run: echo "hello world!!"
